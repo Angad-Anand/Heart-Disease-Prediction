@@ -7,10 +7,11 @@ This Project is mainly divided into two parts:
 
 **About the repository Structure :**
 
-- Project consist `app.py` script which is used to run the application and is engine of this app. contians API that gets input from the user and computes a predicted value based on the model.
+- Project consist `app.py` script which is used to run the application and is engine of this app. is used to predict using the data given by the user in the form
 - `model.py` contains code to build and train a Machine learning model.
-- _templates_ folder contains one file `index.html` which describe the structure of the app and the way this web application behaves. This file are connected with Python via Flask framework.
-- _static_ folder contains file `style.css` which adds some styling and enhance the look of the application.
+- in  _templates_  `index.html` is the frontend start page
+- in  _templates_  `result.html` is the frontend result page
+- in _static_ `style.css` is for styling
 
 ### Installation
 
